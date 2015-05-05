@@ -1,0 +1,10 @@
+source "https://supermarket.chef.io"
+
+metadata
+
+cookbook 'apt'
+cookbook 'nginx'
+cookbook 'locale', '~> 1.0.2'
+cookbook 'mongodb', '~> 0.16.2'
+cookbook 'rvm', github: 'fnichol/chef-rvm', :ref => '7c5c9a1fd695f236'
+cookbook 'redisio'
