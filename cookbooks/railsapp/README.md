@@ -1,13 +1,13 @@
 # railsapp-cookbook
 
-TODO: Enter the cookbook description here.
+This cookbook will setup a full stack server for running a Ruby on Rails application.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+This cookbook is intended to be run in a machine with Ubuntu 14.04
 
+<!--
 ## Attributes
-
 <table>
   <tr>
     <th>Key</th>
@@ -22,21 +22,15 @@ TODO: List your supported platforms.
     <td><tt>true</tt></td>
   </tr>
 </table>
-
+-->
 ## Usage
 
 ### railsapp::default
 
-Include `railsapp` in your node's `run_list`:
+Make sure you have berkshelf and vagrant installed (berkshelf is included in the ChefDK).
+Run `berks install` and then `vagrant up` and you will be good to go.
 
-```json
-{
-  "run_list": [
-    "recipe[railsapp::default]"
-  ]
-}
-```
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Guillermo Arias (guillermo.arias@dotcreek.com)
